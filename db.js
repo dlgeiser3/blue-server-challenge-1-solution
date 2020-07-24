@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize');
 
-const sequelize = new Sequelize('blue-server-challenge', 'postgres', '*YOUR PASSWORD HERE*', {
+const sequelize = new Sequelize('blue-server-challenge', 'postgres', 'Izanagi31', {
   host: 'localhost',
   dialect: 'postgres',
 })
